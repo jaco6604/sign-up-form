@@ -1,5 +1,27 @@
-body {
-  background-color: steelblue;
-  font-family: sans-serif;
-  color: white;
+.form-columns{
+    display: flex;
+    gap: 2rem;
+}
+
+#first{
+    display: flex;
+    flex-direction:column;
+
+}
+
+#second{
+    display:flex;
+    flex-direction:column;
+}
+
+button{
+    background-color: green;
+    color:white;
+    border: 20px;
+    
+}
+
+span{
+    color:green;
+    font-weight:bold;
 }
