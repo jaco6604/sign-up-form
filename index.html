@@ -7,10 +7,19 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
-    <p>You know you want to.</p>  
-    <br>
+    <div class="content">
+      
+    <aside>
+      <div class="aside">
+      <img  src="odin-lined.png" alt="The odin logo">
+      </div>
+    </aside>
+   
+
     <section>
+      <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+      <p>You know you want to.</p>  
+
       <h2>Let's do this!</h2>
 
     <div class="form-columns">
@@ -20,10 +29,10 @@
       <input type="text" id="firstName" name="firstName">
 
       <label for="email">EMAIL</label>
-      <input type="email" id="email" name="email">
+      <input required type="email" id="email" name="email">
 
       <label for="password">PASSWORD</label>
-      <input type="password" id="password" name="password">
+      <input required type="password" id="password" name="password">
     </div>
 
 
@@ -35,12 +44,15 @@
       <input type="number" id="phone" name="phone">
 
       <label for="confirm">CONFIRM PASSWORD</label>
-      <input type="password" id="confirm" name="confirm">
+      <input required type="password" id="confirm" name="confirm">
       </div>
 
       </div>
+        <button type="submit">Create Account</button>
+        <p>Already have an account? <span>Log in</span></p>
+
     </section>
-    <button type="submit">Create Account</button>
-    <p>Already have an account? <span>Log in</span></p>
+  
+    </div>
   </body>
 </html>

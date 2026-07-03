@@ -15,7 +15,7 @@
 }
 
 button{
-    background-color: green;
+    background-color: #596D48;
     color:white;
     border: 20px;
     
@@ -24,4 +24,37 @@ button{
 span{
     color:green;
     font-weight:bold;
+}
+
+aside{
+    background-image: url(photo-1780631347040-0c5df6053c2f.avif);
+    background-size: cover;
+    width:200px;
+    height:100vh;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+
+}
+
+.content{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+img{
+    height: 50px;
+    width: 50px;
+    
+
+}
+
+.aside{
+    background-color:rgba(0, 0, 0, 0.7);
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
 }
