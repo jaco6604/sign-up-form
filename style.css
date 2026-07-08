@@ -17,7 +17,8 @@
 button{
     background-color: #596D48;
     color:white;
-    border: 20px;
+    border:  20px;
+    border-radius: 4px;
     
 }
 
@@ -57,4 +58,24 @@ img{
     display:flex;
     flex-direction:row;
     justify-content:center;
+    align-items: center;
+}
+
+input:focus{
+    border: 2px solid blue;
+    box-shadow:2px 4px gold;
+}
+
+input[type="password"]:user-invalid{
+    border: 2px solid red;
+}
+
+@font-face {
+    font-family: 'Norse';
+    src: url('Norsebold.otf');
+}
+
+h1{
+    color:white;
+    font-family:Norse;
 }
